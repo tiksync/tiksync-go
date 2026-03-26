@@ -49,4 +49,4 @@ go get github.com/tiksync/tiksync-go
 
 ## License
 
-MIT — built by [SyncLive](https://synclive.fr) | [tiksync.com](https://tiksync.com)
+MIT — built by [SyncLive](https://synclive.fr) | [tik-sync.com](https://tik-sync.com)

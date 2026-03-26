@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-const DefaultAPIURL = "https://api.tiksync.com"
+const DefaultAPIURL = "https://api.tik-sync.com"
 
 type EventHandler func(data map[string]interface{})
 
