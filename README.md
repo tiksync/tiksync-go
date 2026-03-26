@@ -73,13 +73,13 @@ client := tiksync.NewWithConfig("username", tiksync.Config{
 | `disconnected` | Disconnected |
 | `error` | Connection error |
 
-## Get Your API Key
+## Get Started
 
 1. Sign up at [tik-sync.com](https://tik-sync.com)
-2. Go to Dashboard → API Keys
-3. Create a new key
+2. Create a free API key in your dashboard
+3. Install the SDK and start building
 
-Free tier: 1,000 requests/day, 10 WebSocket connections.
+Free tier available. See [pricing](https://tik-sync.com/pricing) for details.
 
 ## Why TikSync?
 
