@@ -5,8 +5,8 @@
 <h1 align="center">TikSync Go SDK</h1>
 
 <p align="center">
-  <strong>TikTok Live SDK for Go</strong> — Real-time chat, gifts, likes, follows & viewer events.<br>
-  <a href="https://tik-sync.com">Website</a> · <a href="https://tik-sync.com/docs">Documentation</a> · <a href="https://tik-sync.com/pricing">Pricing</a>
+  <strong>TikTok Live SDK for Go</strong> - Real-time chat, gifts, likes, follows & viewer events.<br>
+  <a href="https://tik-sync.com">Website</a> - <a href="https://tik-sync.com/docs">Documentation</a> - <a href="https://tik-sync.com/pricing">Pricing</a>
 </p>
 
 ---
@@ -86,9 +86,9 @@ Free tier available. See [pricing](https://tik-sync.com/pricing) for details.
 - **< 1ms** signature latency
 - **$0** CAPTCHA cost
 - **Rust-powered** native backend
-- **6 official SDKs** — JS, Python, Go, Java, C#, Rust
-- **Direct connection** — no proxy required
+- **6 official SDKs** - JS, Python, Go, Java, C#, Rust
+- **Direct connection** - no proxy required
 
 ## License
 
-MIT — Built by [TikSync](https://tik-sync.com)
+MIT - Built by [0xwolfsync](https://tik-sync.com)
