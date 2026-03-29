@@ -6,10 +6,20 @@
 
 <p align="center">
   <strong>TikTok Live SDK for Go</strong> - Real-time chat, gifts, likes, follows & viewer events.<br>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://discord.gg/2RkymdBNa7"><img src="https://img.shields.io/discord/1487514051427700886?label=Discord&logo=discord&logoColor=white" alt="Discord"></a><br>
   <a href="https://tik-sync.com">Website</a> - <a href="https://tik-sync.com/docs">Documentation</a> - <a href="https://tik-sync.com/pricing">Pricing</a>
 </p>
 
 ---
+
+## Why TikSync?
+
+- **No Puppeteer/Chromium** - Pure Rust signing engine, no browser dependency
+- **Fast** - Sub-millisecond signature generation
+- **Production-ready** - Used by 50+ TikTok Live streamers daily
+- **Built-in reliability** - Auto-reconnection and error handling
+- **6 SDKs, 1 API** - Same design across JS, Python, Go, Rust, Java, C#
 
 ## Installation
 
@@ -81,14 +91,24 @@ client := tiksync.NewWithConfig("username", tiksync.Config{
 
 Free tier available. See [pricing](https://tik-sync.com/pricing) for details.
 
-## Why TikSync?
+## All SDKs
 
-- **< 1ms** signature latency
-- **$0** CAPTCHA cost
-- **Rust-powered** native backend
-- **6 official SDKs** - JS, Python, Go, Java, C#, Rust
-- **Direct connection** - no proxy required
+| Language | Package | Install |
+|----------|---------|---------|
+| JavaScript | [npm](https://www.npmjs.com/package/tiksync) | `npm install tiksync` |
+| Python | [PyPI](https://pypi.org/project/tiksync/) | `pip install tiksync` |
+| Go | [go.dev](https://pkg.go.dev/github.com/tiksync/tiksync-go) | `go get github.com/tiksync/tiksync-go` |
+| Rust | [crates.io](https://crates.io/crates/tiksync) | `cargo add tiksync` |
+| Java | [Maven Central](https://central.sonatype.com/artifact/io.github.0xwolfsync/tiksync) | See docs |
+| C# | [NuGet](https://www.nuget.org/packages/TikSync) | `dotnet add package TikSync` |
+
+## Community
+
+- [Discord](https://discord.gg/2RkymdBNa7) - Get help and chat with other developers
+- [Documentation](https://tik-sync.com/docs) - Full API reference
+- [Blog](https://tik-sync.com/blog) - Technical deep-dives
+- [Status](https://tik-sync.com/status) - Service uptime
 
 ## License
 
-MIT - Built by [0xwolfsync](https://tik-sync.com)
+MIT - Built by [TikSync](https://tik-sync.com)
