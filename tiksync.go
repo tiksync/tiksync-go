@@ -35,6 +35,13 @@ type TikSync struct {
 }
 
 func New(uniqueID string, apiKey string) *TikSync {
+	if apiKey == "" {
+		log.Fatal("\n\n" +
+			"  TikSync API key required\n" +
+			"  Get your free API key at: https://tik-sync.com/sign-up\n" +
+			"  Then use: tiksync.New(uniqueID, \"ts_...\")\n" +
+			"  Free tier: 1,000 requests/day, 10 WS connections\n\n")
+	}
 	return NewWithConfig(uniqueID, Config{
 		APIKey:               apiKey,
 		APIURL:               DefaultAPIURL,
